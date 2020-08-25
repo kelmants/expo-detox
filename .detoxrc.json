@@ -1,0 +1,19 @@
+{
+  "test-runner": "jest",
+  "configurations": {
+    "ios.sim.debug": {
+      "binaryPath": "bin/Exponent.app",
+      "type": "ios.simulator",
+      "device": {
+        "type": "iPhone 11"
+      }
+    },
+    "android.emu.debug": {
+      "binaryPath": "bin/Exponent.app",
+      "type": "android.emulator",
+      "device": {
+        "avdName": "Pixel_API_28"
+      }
+    }
+  }
+}
